@@ -1,0 +1,13 @@
+@use "veriables";
+
+h1 {
+    color: veriables.$test-color;
+}
+
+.testing {
+    background: url("../images/testing.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 300px;
+}
